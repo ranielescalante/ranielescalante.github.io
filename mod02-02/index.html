@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>My Form | A Simple Form</title>
+</head>
+<body>
+
+<div style="width: 300px ">
+<fieldset>
+	<legend>Your Detail</legend>
+	<label>Name:</label>
+	<input type="text" name="text">
+	<br>
+	<label>Email:</label>
+	<input type="email" name="email" required>
+</fieldset>
+
+
+<fieldset>
+	<legend>Your Review:</legend>
+	<label>How did you hear about?</label>
+	<select name="social">
+		<option value="google">Google</option>
+		<option value="facebook">Facebook</option>
+		<option value="instagram">Instagram</option>
+		<option value="twitter">Twitter</option>
+		<option value="ads">Ads</option>
+		<option value="blogs">Blogs</option>
+	</select>
+	<br>
+	<br>
+	<label>Would you visit us again?</label>
+	<br>
+	<label><input type="radio" name="answer" value="yes">Yes</label>
+	<label><input type="radio" name="answer" value="no">No</label>
+	<label><input type="radio" name="answer" value="maybe">Maybe</label>
+
+	<br>
+	<br>
+	<label>Comments:</label>
+	<br>
+	<textarea name="comments" placeholder=""></textarea>
+	<br>
+	<br>
+	<label><input type="checkbox" name="signup" value="">Sign me up for email updates.</label>
+	<br>
+	<input type="submit" name="submit" id="submit" value="Subscribe review">
+
+</fieldset>
+</div>
+
+</body>
+</html>
