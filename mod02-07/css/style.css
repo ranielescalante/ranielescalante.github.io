@@ -1,0 +1,143 @@
+/*{
+	/*removes default padding and margins*/
+	/*margin: 0;
+	padding: 0; 
+	box-sizing: border-box; /* to avoid overflow */
+
+
+/*}*/
+
+/*Type Selectors*/
+/*p {
+	background-color: yellow;
+}*/
+
+/*ID selectors: # = ID*/
+
+/*#para1{
+	background: red;
+}*/
+
+/*Class Selector*/
+/*.paragraphs{
+	background-color: orange;
+}*/
+
+/*Attribute Selector*/
+/*[target]{
+	color: green;
+}*/
+
+/*Attribute Selector with a value selector*/
+/*a[target="_top"]{
+	color: indigo;
+}*/
+
+/*universal selector*/
+/**{
+	background-color: green;
+}*/
+
+/*h5 + a{
+	background-color: red;
+}*/
+
+/*a + br + a,
+a + br + br + a{
+	background-color: green;
+}*/
+
+/* General Sibling combinator*/
+/*h5 ~ div a{
+	background-color: yellow;*/
+/*}*/
+
+
+/*Child Slector combinator*/
+/*div > a{
+	background-color: blue;
+}*/
+
+/*div	a {
+	background-color: yellow;
+}*/
+
+/*Pseudo Class*/
+/*a:link {
+	color: orange;
+	background-color: black;
+	padding: 10px;
+}*/
+
+/*a:visited {
+	color: yellow; 
+	background-color: green; 
+}*/
+
+/*
+click + hold = active
+focus = tab
+*/
+/*a:focus {
+	background-color: black;
+	color:red;
+}*/
+
+/*a:hover {
+	background-color: blue;
+	color: yellow;
+}*/
+
+/*a:active,
+h3:active,
+h5:active{
+	background-color: yellow;
+	color: black;
+}
+*/
+
+/* first-child pseudo class*/
+
+/*li:first-child,
+li:last-child{
+	background-color: black;
+	color: yellow;
+}*/
+
+/*p:first-child,
+p:last-child{
+	background-color: black;
+	color: yellow;
+}*/
+
+/*even and odd*/
+
+/*li:nth-child(odd),
+p:nth-child(odd) {
+	background-color: black;
+	color: orange;
+}*/
+
+/*h3,
+h5,
+p,
+li,
+a:link {
+	background-color: black;
+	color: white;
+}*/
+
+p{
+	background-color: black;
+	color: yellow;
+}
+
+#lastChild{
+	background-color: green;
+	color: blue;
+}
+
+div > .thirdPara {
+	background-color: blue;
+	color: red;
+}
