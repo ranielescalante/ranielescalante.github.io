@@ -21,6 +21,9 @@
 	background-color: #607d8b;
 }
 
+body{
+	background-image: url(../img/raniel006.jpg);
+}
 
 header, footer, main
 h3{
