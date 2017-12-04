@@ -12,6 +12,7 @@ body {
 	background: url();
 	background-color: lightgrey;
 	padding: 10px;
+	background: url(../img/foods.jpg);
 
 
 }
@@ -135,14 +136,14 @@ h3.username + p {
 
 .footer {
 	/*height: 200px;*/
-	background-color: #d6e9fe;
+	background-color: #aee571;
 	clear: both; /* */
 
 }
 
 .page {
 	padding: 20px;
-	/*border: 1px solid red;*/
+	background-color: #4a820c;
 }
 
 .clear:after {
@@ -161,7 +162,7 @@ h3.username + p {
 */
 
 .column {
-	background-color: #b2d6ff;
+	background-color: #4a820c;
 	height: 160px;
 	width: 31%;
 	margin: 20px 1.16%;
