@@ -1,0 +1,217 @@
+/* CSS preset*/
+*{
+	/*removes default padding and margins*/
+	margin: 0;
+	padding: 0px; 
+	box-sizing: border-box; /* to avoid overflow */
+	font-family: 'Indie Flower', cursive;
+}
+
+body {
+
+	background: url();
+	background-color: lightgrey;
+	padding: 10px;
+
+
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;	
+}
+
+
+p {
+	position: static; 
+}
+
+
+
+
+h1 {
+	background-color: grey;
+	padding: 10px;
+	position: fixed;
+	z-index: 1;
+	width: inherit;
+
+}
+
+main.wrapper > p {
+	height: 1000px;
+	background-color: #7cb342;
+	position: relative;
+	top: 70px;
+}
+
+
+
+
+/*main.wrapper div {
+	padding:0;
+	margin:	0;
+}*/
+
+.menu {
+	height: 100px;
+	background-color: #7cb342;
+	font-weight: 10px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	padding-top: 20px;
+
+}
+
+.sidebar {
+	height: 300px;
+	background-color: #f09a9d;
+	width: 20%;
+	/*margin: 0 auto;*/
+	float: left;
+	text-align: center;
+	color: white;
+	background-image: url('http://lorempixel.com/738/300/')
+	
+}
+
+/*
+*
+*
+* Content
+*
+*/
+
+.article-image {
+	width: 300px;
+	/*height: 200px;*/
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.content {
+	/*height: 500px;*/
+	background-color: #aee571;
+	width: 80%;
+	float: left;
+	padding: 20px;
+
+}
+
+div.content > p {
+	margin-bottom: 10px;
+}
+
+
+/*
+*
+*
+* Footer
+*
+*/
+
+.avatar {
+	width: 60px;
+	height: 60px;
+	background-color: #d639fe;
+	float: left;
+	margin-right: 25px;
+	border-radius: 50px;
+	background-image: url('http://lorempixel.com/60/60/')
+}
+
+.username {
+	margin-bottom: 15px;
+}
+
+h3.username + p {
+	overflow: hidden;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+.footer {
+	/*height: 200px;*/
+	background-color: #d6e9fe;
+	clear: both; /* */
+
+}
+
+.page {
+	padding: 20px;
+	/*border: 1px solid red;*/
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*
+*
+*
+* columns
+*
+*/
+
+.column {
+	background-color: #b2d6ff;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	/*border: 1px solid red;*/
+	float: left;
+	padding: 15px;
+	position: relative;
+}
+
+
+/*
+*
+*
+* Managing overflow with multi line support
+*
+*/
+
+.block-with-text {
+	overflow: hidden;
+	position: relative;
+	line-height: 1.2em; /*default font size*/
+	max-height: 3.6em;
+	text-align: left;
+	margin-right: -1em;
+	padding-right: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.block-with-text:before {
+	content: "...";
+	position: absolute;
+	right: 30px;
+	bottom: 0px;
+}
+
+.block-with-text:after {
+	content: "";
+	position: absolute;
+	right: 30px;
+	width: 1em;
+	height: 1em;
+	margin-top: 0.2em;
+	background-color: #b2d6ff;
+}
+
+.read-more {
+	position: absolute;
+	right: 25px;
+	bottom: 25px;
+
+}
+
+
