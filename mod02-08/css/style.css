@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0; 
 	box-sizing: border-box; /* to avoid overflow */
+	font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -84,40 +85,7 @@ main.wrapper > p {
 }
 
 
-/*
-*
-*
-* Page 3 CSS Rule
-*
-*/
 
-/*div {
-	width: 100px;
-	height: 100px;
-	border: 1px solid #000;
-	position: absolute;
-}*/
-
-.blue {
-	background-color: blue;
-	top: 20px;
-	left: 20px;
-	z-index: 1;
-}
-
-.yellow {
-	background-color: yellow;
-	top: 40px;
-	left: 40px;
-	z-index: 0;
-}	
-
-.orange {
-	background-color: orange;
-	top: 60px;
-	left: 60px;
-	z-index: 2;
-}
 
 /*
 *
@@ -126,10 +94,6 @@ main.wrapper > p {
 *
 */
 
-/*main.wrapper div {
-	padding:0;
-	margin:	0;
-}*/
 
 .menu {
 	height: 100px;
