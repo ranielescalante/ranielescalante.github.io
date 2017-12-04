@@ -58,7 +58,6 @@ main.wrapper > p {
 .menu {
 	height: 100px;
 	background-color: #7cb342;
-	font-weight: 10px;
 	text-align: center;
 	font-size: 40px;
 	color: white;
@@ -68,13 +67,15 @@ main.wrapper > p {
 
 .sidebar {
 	height: 300px;
-	background-color: #f09a9d;
+	background-color: #ade470;
 	width: 20%;
-	/*margin: 0 auto;*/
+	font-size: 40px;
 	float: left;
 	text-align: center;
 	color: white;
-	background-image: url('http://lorempixel.com/738/300/')
+	border: 1px solid black;
+	background-image: url('http://lorempixel.com/300/300/')
+	padding:10px;
 	
 }
 
@@ -99,6 +100,7 @@ main.wrapper > p {
 	width: 80%;
 	float: left;
 	padding: 20px;
+	border: 1px solid black;
 
 }
 
